@@ -22,7 +22,7 @@
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.postgresql.Driver" />
-		<property name="url" value="postgres://saskaujasmeeou:FqdwseE-pFqiMOmJff6RAUaF_q@ec2-184-73-202-229.compute-1.amazonaws.com:5432/des0sd6g3s4ku" />
+		<property name="url" value="jdbc:postgresql://ec2-184-73-202-229.compute-1.amazonaws.com:5432/des0sd6g3s4ku?user=saskaujasmeeou&amp;password=FqdwseE-pFqiMOmJff6RAUaF_q&amp;sslmode=require" />
 		<property name="username" value="saskaujasmeeou" />
 		<property name="password" value="FqdwseE-pFqiMOmJff6RAUaF_q" />
 	</bean>
